@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+:root{
+  --cor-de-fundo: #272727;
+  --cor-primaria:#F27D11;
+  --cor-branca:#f3f3f3;
+  --fonte-pagina:'Roboto';
+
+}
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body{
+  background: var(--cor-de-fundo);
+  font-size: var(--tamanho-fonte);
+  font-family: var(--fonte-pagina);
+}
+
+main{
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+
+
+/* Cabecalho do site */
+
+.cabecalho{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding:1rem 2rem;
+}
+.logo h1{
+  color:var(--cor-primaria);
+  font-size: 2rem;
+  filter: drop-shadow(0.5px 0.5px 2px var(--cor-primaria));
+}
+.navigation{
+  display: flex;
+  gap: 0 3rem;
+}
+.navigation a{
+  position: relative;
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: var(--cor-branca);
+}
+.navigation a:hover{
+ opacity: 0.85;
+}
+.navigation a::after{
+  position: absolute;
+  content:'';
+  width: 0px;
+  height: 2px;
+  bottom: -4px;
+  left: 0;
+  background:linear-gradient(45deg, var(--cor-primaria) ,#e48e3e);
+  transition: width .7s;
+}
+
+.navigation a:hover::after{
+  width: 105%;
+  transition: width .7s;
+}
+
+.contato button {
+  background: var(--cor-primaria);
+  border: none;
+  color: var(--cor-branca);
+  font-size: 1.1rem;
+  padding: 0.5rem 3rem;
+  border-radius: 20px;
+  filter: drop-shadow(0.5px 0.5px 2px var(--cor-primaria));
+}
+.contato button:hover{
+  opacity: 0.85;
+  cursor: pointer;
+}
+
+/* Parte superiot do Portifolio */
+
+.parte-superior{
+  
+}
