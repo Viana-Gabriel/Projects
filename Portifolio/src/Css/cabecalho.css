@@ -1,0 +1,77 @@
+/* Cabecalho do site */
+.cabecalho{
+  align-items: center;
+  justify-content: space-around;
+  padding:1rem 2rem;
+  position: sticky;
+  top: 0;
+  background: #1d1d1d;
+  z-index: 9999;
+}
+.logo h1{
+  color:var(--cor-primaria);
+  font-size: 2rem;
+  filter: drop-shadow(0.5px 0.5px 2px var(--cor-primaria));
+}
+.navigation{
+  gap: 0 3rem;
+}
+.navigation a{
+  position: relative;
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: var(--cor-branca);
+}
+.navigation a:hover{
+ opacity: 0.85;
+}
+.navigation a::after{
+  position: absolute;
+  content:'';
+  width: 0px;
+  height: 2px;
+  bottom: -4px;
+  left: 0;
+  background:linear-gradient(45deg, var(--cor-primaria) ,#e48e3e);
+  transition: width .7s;
+}
+.navigation a:hover::after{
+  width: 105%;
+  transition: width .7s;
+}
+.contato button {
+  background: var(--cor-primaria);
+  border: none;
+  color: var(--cor-branca);
+  font-size: 1.1rem;
+  padding: 0.5rem 3rem;
+  border-radius: 20px;
+  filter: drop-shadow(0.5px 0.5px 2px var(--cor-primaria));
+}
+.contato button:hover{
+  opacity: 0.85;
+  cursor: pointer;
+}
+
+.menu-mobile{
+  display: none;
+}
+.navigation{
+  display: block;
+}
+
+@media(max-width:768px){
+  .cabecalho{
+    justify-content: space-between;
+  }
+  .cabecalho .navigation{
+    display: none;
+  }
+  .contato{
+    display: none;
+  }
+  .menu-mobile{
+    display: block;
+  }
+  
+}

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
   <meta charset="UTF-8">
@@ -9,31 +9,64 @@
 </head>
 
 <body>
-  <header class="cabecalho">
+  <header class="cabecalho flex">
     <div class="logo">
       <h1>&lt; GVS / &gt;</h1>
     </div>
-    <nav class="navigation">
-      <a href="">Habilidades</a>
-      <a href="">Sobre</a>
-      <a href="">Projetos</a>
+    <nav class="navigation flex">
+      <a href="#">Habilidades</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#">Projetos</a>
     </nav>
     <div class="contato">
       <button>Contato</button>
     </div>
+    <div class="menu-mobile">
+      Menu
+    </div>
   </header>
   <main>
-    <section class="parte-superior">
-      <div>
-    
 
+    <section class="parte_superior flex">
+      <div class="texto_animado ">
+        <h1 id="frase_animada">Olá, seja bem vindo ao meu repositorio de Desenvolvedor Web.</h1>
+        <button>
+          Veja Meus Projetos
+        </button>
       </div>
       <div>
-        <img src="" alt="">
+        <img src="./src/imagens/ilustracao.svg" alt="">
       </div>
     </section>
-  </main>
 
+    <section class="sobre flex" id="sobre">
+      <div class="sobre_imagem">
+        <img src="./src/imagens/profile-pic (1).png" alt="">
+      </div>
+      <div class="sobre_informações flex">
+        <h1>Sobre Mim</h1>
+        <p>
+          Olá! Meu nome é Gabriel Viana Santos, sou um aspirante a desenvolvedor web com uma paixão pela criação de
+          <strong>interfaces estaticas</strong> e <strong>responsivas</strong> que buscam proporcionar experiências digitais <strong>atraentes</strong> e <strong>dinâmicas</strong>.
+        </p>
+        <p>Minha jornada começou com uma curiosidade insaciável pela forma como a web funciona, levando-me a explorar
+          profundamente linguagens como <strong>HTML, CSS e JavaScript</strong>. Desde então, expandi meu conhecimento para incluir
+          bibliotecas como <strong>ReactJS</strong>.</p>
+        <p>
+          Para o back-End aprendi o básico das linguagens <strong>Php e node.Js</strong>.
+        </p>
+        <div class="redes_sociais flex">
+          <a href="https://github.com/Viana-Gabriel" target="_blank">
+            <span></span>
+            <span>GitHub</span>
+          </a>
+          <a href="https://www.linkedin.com/in/gabriel-viana-48106a2aa/" target="_blank">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
 </body>
+<script src="./src/js/main.js"></script>
 
 </html>
