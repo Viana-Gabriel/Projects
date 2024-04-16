@@ -1,4 +1,10 @@
 const frase = document.getElementById('frase_animada')
+const cards_imagens = document.querySelectorAll('.card_imagem')
+
+cards_imagens.forEach((card , i)=>{
+  card.style.backgroundImage = `url('./src/imagens/icons_habilidades/${i+1}.svg')`
+  card.style.backgroundSize = 'cover'
+})
 
 TextoAnimado(frase)
 

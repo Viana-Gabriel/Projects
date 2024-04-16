@@ -53,14 +53,15 @@
   cursor: pointer;
 }
 
-.menu-mobile{
+#btn_menu{
   display: none;
 }
 .navigation{
   display: block;
 }
 
-@media(max-width:768px){
+@media(max-width:950px){
+ 
   .cabecalho{
     justify-content: space-between;
   }
@@ -70,8 +71,13 @@
   .contato{
     display: none;
   }
-  .menu-mobile{
+  #btn_menu{
     display: block;
+    background: transparent;
+    color: var(--cor-primaria);
+    border: none;
   }
-  
+  #btn_menu i{
+    font-size: 2rem;
+  }
 }
