@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1 ,
+    "titulo":  "A culpa é das estrelas",
+    "descricao": "Hazel Grace Lancaster e Augustus Waters são dois adolescentes que se conhecem em um grupo de apoio para pacientes com câncer. Por causa da doença, Hazel sempre descartou a ideia de se envolver amorosamente.",
+    "autor":"John Green"
+  },
+  {
+    "id": 2 ,
+    "titulo":  "It - A Coisa",
+    "descricao": "Um grupo de crianças se une para investigar o misterioso desaparecimento de vários jovens em sua cidade. Eles descobrem que o culpado é Pennywise, um palhaço cruel que se alimenta de seus medos e cuja violência teve origem há vários séculos.",
+    "autor":"Stephen King"
+  }
+]

@@ -1,0 +1,6 @@
+.Container{
+  max-width: 1300px;
+  margin: 0 auto;
+  background:white;
+  height: calc(100vh - 65px);
+}
