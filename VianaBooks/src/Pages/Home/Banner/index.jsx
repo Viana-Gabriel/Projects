@@ -12,7 +12,7 @@ export default function Banner() {
         <Link to={'/CadastrarLivros'}>Contribua Cadastrando livros</Link>
       </div>
       <div>
-        <img src={img_banner} alt="" />
+        <img src={img_banner} alt="" className={style.Banner_img} />
       </div>
 
     </div>

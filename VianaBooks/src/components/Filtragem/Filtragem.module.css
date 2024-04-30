@@ -29,3 +29,20 @@
   justify-content: space-around;
 }
 
+@media (max-width:768px){
+ .Container_Filtrador select{
+    width: 100px;
+  }
+}
+
+@media (max-width:500px){
+  .Search{
+    width: 180px;
+  }
+  .Search input{
+    width: 100%;
+  }
+  .Container_Filtrador select{
+     width: 100px;
+   }
+ }
