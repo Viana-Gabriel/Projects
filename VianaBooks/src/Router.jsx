@@ -6,21 +6,27 @@ import NaoEncontrado from './Pages/NaoEncontrada'
 import Cabecalho from './components/Cabecalho'
 import Rodape from './components/Rodape'
 import CadastrarLivro from './Pages/Cadastrar'
+import Favoritos from './Pages/Favoritos'
+import FavoritesProvider from './Contexts/Favorites'
 
 function Router() {
 
   return (
     <>
       <BrowserRouter>
-        <Cabecalho/>
-        <Routes>
-          <Route index element = {<Home/>}/>
-          <Route path='*' element={<NaoEncontrado/>}/>
-          <Route path='/CadastrarLivros' element={<CadastrarLivro/>}/>
-          <Route path='/Livros/:id' element={<PageLivro/>}/>
-        </Routes>
+        <Cabecalho />
+        <FavoritesProvider>
+          <Routes>
+            <Route index element={<Home />} />
+            <Route path='*' element={<NaoEncontrado />} />
+            <Route path='/CadastrarLivros' element={<CadastrarLivro />} />
+            <Route path='/Favoritos' element={<Favoritos />} />
+            <Route path='/Livros/:id' element={<PageLivro />} />
+          </Routes>
+        </FavoritesProvider>
+        <Rodape />
       </BrowserRouter>
-      <Rodape/>
+
     </>
   )
 }

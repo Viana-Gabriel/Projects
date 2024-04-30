@@ -6,7 +6,7 @@
     "autor": "John Green",
     "categoria": "Romance",
     "preco": 44.87,
-    "imagem": "estrelas"
+    "imagem": "https://m.media-amazon.com/images/I/41yToN1cOML._SY445_SX342_.jpg"
   },
   {
     "id": 2,
@@ -15,7 +15,7 @@
     "autor": "Nikki St. Crowe",
     "categoria": "Horror",
     "preco": 55.90,
-    "imagem": "Nunca"
+    "imagem": "https://m.media-amazon.com/images/I/91azxa1ZbTL._SL1500_.jpg"
   },
   {
     "id": 3,
@@ -24,7 +24,7 @@
     "autor": "Joe Hill",
     "categoria": "Horror",
     "preco": 52.40,
-    "imagem":"Noite"
+    "imagem":"https://m.media-amazon.com/images/I/61YkOraZsDL._SY445_SX342_.jpg"
   },
   {
     "id": 4,
@@ -33,7 +33,7 @@
     "autor": "Jojo Moyes",
     "categoria": "Romance",
     "preco": 27.00,
-    "imagem":"você"
+    "imagem":"https://m.media-amazon.com/images/I/4164h-1qDZL._SY445_SX342_.jpg"
   },
   {
     "id": 5,
@@ -42,16 +42,16 @@
     "autor": "Stephen King",
     "categoria": "Horror",
     "preco": 84.58,
-    "imagem":"Coisa"
+    "imagem":"https://m.media-amazon.com/images/I/51z0s3GcvwL._SY445_SX342_.jpg"
   },
   {
     "id": 6,
     "titulo": "Corações Congelados",
-    "descricao": "Um beijo proibido de um fae pode ser mortal. Naia foi criada à sombra de seu irmão gêmeo, futuro rei, que tem uma mágica de ferro muito mais poderosa do que a dela. Mas Naia tem desejos próprios. Eles despertam quando ela encontra um fae branco quase morrendo no bosque. Ela só ouvira falar deles em histórias; a temida raça que arrasou cidades, matou seus avós, quase livrou a Alúria de humanos — até que eles desapareceram. Agora, quase vinte anos depois, será que eles estão de volta? Será que uma nova guerra está prestes a começar? Mas o fae é evasivo e misterioso — e também sedutor e fascinante, bonito como ela jamais tinha visto. E daí acontece: Naia o beija — e nada mais será o mesmo. Em outro reino, Léa, uma princesa necromante, tem que encontrar um marido em menos de quatro dias, durante a conglomeração, quando os nobres de toda a Alúria se reúnem. Sua família deixa muito claro que ela pode escolher qualquer príncipe que queira, exceto um: o irmão de Naia. ",
+    "descricao": "Um beijo proibido de um fae pode ser mortal. Naia foi criada à sombra de seu irmão gêmeo, futuro rei, que tem uma mágica de ferro muito mais poderosa do que a dela. Mas Naia tem desejos próprios. Eles despertam quando ela encontra um fae branco quase morrendo no bosque. Ela só ouvira falar deles em histórias; a temida raça que arrasou cidades, matou seus avós, quase livrou a Alúria de humanos — até que eles desapareceram. Agora, quase vinte anos depois, será que eles estão de volta? Será que uma nova guerra está prestes a começar? Mas o fae é evasivo e misterioso — e também sedutor e fascinante, bonito como ela jamais tinha visto. E daí acontece: Naia o beija — e nada mais será o mesmo. ",
     "autor": "Day Leitao",
     "categoria": "Romance",
     "preco": 81.60,
-    "imagem":"Congelados"
+    "imagem":"https://m.media-amazon.com/images/I/41FeNyt3sYL._SY445_SX342_.jpg"
   },
   {
     "id": 7,
@@ -60,7 +60,7 @@
     "autor": "Cecilia Ahern",
     "categoria": "Romance",
     "preco": 60.00,
-    "imagem":"Acontece"
+    "imagem":"https://m.media-amazon.com/images/I/51yMwdFTOhL._SY445_SX342_.jpg"
   },
   {
     "id": 8,
@@ -69,7 +69,7 @@
     "autor": "Thomas B. Allen",
     "categoria": "Horror",
     "preco": 59.00,
-    "imagem":"Exorcista"
+    "imagem":"https://m.media-amazon.com/images/I/514BugWI0cL._SY445_SX342_.jpg"
   },
   {
     "id": 9,
@@ -78,7 +78,7 @@
     "autor": "Rick Riordan",
     "categoria": "Fantasia",
     "preco": 44.92,
-    "imagem":"raios"
+    "imagem":"https://m.media-amazon.com/images/I/41vfSDYLYeL._SX342_SY445_.jpg"
   },
   {
     "id": 10,
@@ -87,7 +87,7 @@
     "autor": "C S. Lewis",
     "categoria": "Fantasia",
     "preco": 44.92,
-    "imagem":"Guarda-roupa"
+    "imagem":"https://m.media-amazon.com/images/I/41WV7uvsJFL._SX342_SY445_.jpg"
   },
   {
     "id": 11,
@@ -96,7 +96,7 @@
     "autor": "Robert Bryndza",
     "categoria": "Suspense",
     "preco": 36.57,
-    "imagem":"suspiro"
+    "imagem":"https://m.media-amazon.com/images/I/51vFbH3-7vL._SY445_SX342_.jpg"
   },
   {
     "id": 12,
@@ -105,7 +105,7 @@
     "autor": "Charlie Donlea",
     "categoria": "Suspense",
     "preco": 26.90,
-    "imagem":"lago"
+    "imagem":"https://m.media-amazon.com/images/I/516VOgxwg2L._SY445_SX342_.jpg"
   },
   {
     "id": 13,
@@ -114,16 +114,16 @@
     "autor": "Victoria Aveyard",
     "categoria": "Fantasia",
     "preco": 31.99,
-    "imagem":"Vermelha"
+    "imagem":"https://m.media-amazon.com/images/I/41sr7+fVRGL._SY445_SX342_.jpg"
   },
   {
     "id": 14,
     "titulo": "Coraline",
-    "descricao": "Certas portas não devem ser abertas. E Coraline descobre isso pouco tempo depois de chegar com os pais à sua nova casa, um apartamento em um casarão antigo ocupado por vizinhos excêntricos e envolto por uma névoa insistente, um mundo de estranhezas e magia, o tipo de universo que apenas Neil Gaiman pode criar.Ao abrir uma porta misteriosa na sala de casa, a menina se depara com um lugar macabro e fascinante. Ali, naquele outro mundo, seus outros pais são criaturas muito pálidas, com botões negros no lugar dos olhos, sempre dispostos a lhe dar atenção, fazer suas comidas preferidas e mostrar os brinquedos mais divertidos. Coraline enfim se sente... em casa. Mas essa sensação logo desaparece, quando ela descobre que o lugar guarda mistérios e perigos, e a menina se dá conta de que voltar para sua verdadeira casa vai ser muito mais difícil ― e assustador ― do que imaginava.",
+    "descricao": "Certas portas não devem ser abertas. E Coraline descobre isso pouco tempo depois de chegar com os pais à sua nova casa, um apartamento em um casarão antigo ocupado por vizinhos excêntricos e envolto por uma névoa insistente, um mundo de estranhezas e magia, o tipo de universo que apenas Neil Gaiman pode criar.Ao abrir uma porta misteriosa na sala de casa, a menina se depara com um lugar macabro e fascinante. Ali, naquele outro mundo, seus outros pais são criaturas muito pálidas, com botões negros no lugar dos olhos, sempre dispostos a lhe dar atenção, fazer suas comidas preferidas e mostrar os brinquedos mais divertidos.",
     "autor": " Neil Gaiman ",
     "categoria": "Fantasia",
     "preco": 48.46,
-    "imagem":"Coraline"
+    "imagem":"https://m.media-amazon.com/images/I/51-9DsDM4DL._SY445_SX342_.jpg"
   },
   {
     "id": 15,
@@ -132,15 +132,15 @@
     "autor": "Holly Jackson",
     "categoria": "Suspense",
     "preco": 44.92,
-    "imagem":"garotas"
+    "imagem":"https://m.media-amazon.com/images/I/71fE-JgveUL._SL1500_.jpg"
   },
   {
     "id": 16,
     "titulo": "Bird Box",
-    "descricao": "Quatro anos depois de as mortes terem começado, há poucos sobreviventes em Michigan. Malorie e seus dois filhos pequenos estão entre eles. O trio faz parte do grupo que tenta resistir em um mundo no qual abrir os olhos pode ser fatal. Vivendo em uma casa abandonada, Malorie e os filhos não sabem o que se passa do lado de fora. Sempre com as janelas e portas cobertas e sem comunicação com o exterior, o local é uma área isolada no meio do caos. Até o momento em que uma misteriosa neblina atinge a região e Malorie toma uma decisão que adiou por muito tempo. Após quatro anos trancados, Malorie e as crianças fogem da casa em um barco a remo na esperança de encontrar um lugar distante do surto que matou todos ao seu redor. De olhos tapados, os três encaram uma viagem assustadora rumo ao desconhecido.",
+    "descricao": "Quatro anos depois de as mortes terem começado, há poucos sobreviventes em Michigan. Malorie e seus dois filhos pequenos estão entre eles. O trio faz parte do grupo que tenta resistir em um mundo no qual abrir os olhos pode ser fatal. Vivendo em uma casa abandonada, Malorie e os filhos não sabem o que se passa do lado de fora. Sempre com as janelas e portas cobertas e sem comunicação com o exterior, o local é uma área isolada no meio do caos. Até o momento em que uma misteriosa neblina atinge a região e Malorie toma uma decisão que adiou por muito tempo.",
     "autor": "Josh MalermanJosh Malerman",
     "categoria": "Suspense",
     "preco": 18.90,
-    "imagem":"Box"
+    "imagem":"https://m.media-amazon.com/images/I/41p4DHosvDL._SY445_SX342_.jpg"
   }
 ]

@@ -1,0 +1,18 @@
+.Favoritos{
+  flex-wrap: wrap;
+  justify-content : center;
+  align-items: center;
+  height: calc(100vh - 65px);
+  gap: 2rem;
+  overflow-y: scroll;
+  padding: 1rem;
+  margin: 1rem auto;
+}
+
+.Favoritos::-webkit-scrollbar {
+  width: 8px;          
+}
+
+.Favoritos::-webkit-scrollbar-thumb {
+  background-color: blue;   
+}

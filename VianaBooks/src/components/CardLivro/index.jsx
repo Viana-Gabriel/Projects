@@ -1,14 +1,18 @@
 /* eslint-disable react/prop-types */
 import { Link } from "react-router-dom";
 import style from './CardLivro.module.css'
-
-
+import { useFavoriteContext } from "../../Contexts/Favorites";
+import { FaBookmark,FaRegBookmark } from "react-icons/fa6";
 export default function CardLivro({ id, titulo, autor, preco, imagem }) {
 
-  /*  const precoConvertido = preco.toString().replace(".", ",") */
+
+  const { favorite, addFavorite } = useFavoriteContext()
+
+  const isFavorite = favorite.some( fav => fav.id === id)
+  const favoritado = isFavorite ? <FaBookmark size={30}/> : <FaRegBookmark size={30}/>
   return (
     <div className={`${style.CardLivro} flex`}>
-      <img src={`assets/Livros/${imagem.toString().toLowerCase()}.jpg`} alt="nao carregou" />
+      <img src={`${imagem}`} alt="nao carregou" />
       <div>
         <h1>{titulo}</h1>
         <h2>{autor}</h2>
@@ -17,6 +21,7 @@ export default function CardLivro({ id, titulo, autor, preco, imagem }) {
       <Link to={`/Livros/${id}`} className={style.CardLivro_link}>
         Mais informações
       </Link>
+      <figure onClick={ ()=> addFavorite({id,titulo,autor,preco,imagem})} className={style.favorito}>{favoritado}</figure>
     </div>
   )
 }
