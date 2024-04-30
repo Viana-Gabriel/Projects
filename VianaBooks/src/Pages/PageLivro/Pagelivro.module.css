@@ -1,0 +1,12 @@
+.PageLivro{
+  height: calc(100vh - 65px);
+  justify-content: space-around;
+}
+
+.PageLivro img{
+  height: 450px;
+}
+
+.PageLivro_Info{
+  width: 40%;
+}

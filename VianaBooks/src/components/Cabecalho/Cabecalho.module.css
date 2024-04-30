@@ -1,5 +1,7 @@
 .Cabecalho{
+  color: white;
   height: 65px;
-  background: blue;
+  background: rgba(34, 34, 182, 0.836);
   padding: 0 2rem;
+  align-items: center;
 }

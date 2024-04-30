@@ -5,6 +5,7 @@ import PageLivro from './Pages/PageLivro'
 import NaoEncontrado from './Pages/NaoEncontrada'
 import Cabecalho from './components/Cabecalho'
 import Rodape from './components/Rodape'
+import CadastrarLivro from './Pages/Cadastrar'
 
 function Router() {
 
@@ -15,6 +16,7 @@ function Router() {
         <Routes>
           <Route index element = {<Home/>}/>
           <Route path='*' element={<NaoEncontrado/>}/>
+          <Route path='/CadastrarLivros' element={<CadastrarLivro/>}/>
           <Route path='/Livros/:id' element={<PageLivro/>}/>
         </Routes>
       </BrowserRouter>
