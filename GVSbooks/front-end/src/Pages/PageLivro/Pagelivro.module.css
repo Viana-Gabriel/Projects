@@ -4,11 +4,11 @@
   align-items: center;
   width: 80%;
   margin: 0 auto;
-
 }
 
 .PageLivro img {
   height: 400px;
+  width: 275px;
 }
 .PageLivro_Imagem{
   height: 450px;
@@ -18,7 +18,7 @@
   justify-content: center;
 }
 .PageLivro_Info{
-  width: 40%;
+  width: 50%;
   flex-direction: column;
   justify-content: space-evenly;  
   height: 500px;
@@ -29,4 +29,33 @@
   background: #2222B6;
   width: 50%;
   padding: .5rem 2rem;  
+}
+
+@media (max-width:1024px){
+  .PageLivro{
+   flex-direction: column;
+   align-items: center;
+   height: auto;
+   width: 90%;
+  }
+  .PageLivro_Info{
+    width: 80%;
+    flex-direction: column;
+    justify-content: space-evenly;  
+    height: 500px;
+  }
+  .PageLivro_Info a{
+   width: 60%;
+  }
+}
+
+@media (max-width:768px){
+
+  .PageLivro, .PageLivro_Info{
+    width: 95%;
+  }
+  .PageLivro_Info a{
+    width: 60%;
+  }
+  
 }

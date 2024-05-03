@@ -1,0 +1,107 @@
+.FormCadastro {
+  height: calc(90vh - 65px);
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.FormCadastro form,
+.FormCadastro_Imagem {
+  padding: 1rem;
+
+}
+
+.FormCadastro label {
+  font-size: .9rem;
+  display: block;
+  font-weight: 600;
+  margin: .5rem 0;
+  color: rgb(71, 71, 71);
+}
+
+.FormCadastro input,
+.FormCadastro textarea {
+  padding: .5rem;
+  outline: 0;
+  width: 100%;
+  border: 1px solid rgb(184, 184, 184);
+}
+
+.FormCadastro textarea {
+  resize: none;
+}
+
+.FormCadastro input {
+  height: 2rem;
+}
+
+.FormCadastro button {
+  border: 1px solid gray;
+  margin: 1rem 0;
+  padding: .5rem 2rem;
+  border-radius: 20px;
+  transition: .4s ease-in-out;
+  background: white;
+  font-weight: 600;
+  color: black;
+}
+
+.FormCadastro button:hover {
+  cursor: pointer;
+  background: #2222B6;
+  color: white;
+}
+
+
+.FormCadastro_Imagem {
+  padding: 1rem;
+  justify-content: center;
+  gap: 1rem;
+  width: 400px;
+}
+
+.FormCadastro_Imagem img {
+  width: 100%;
+}
+
+.FormCadastro_metade {
+  justify-content: space-between;
+  gap: .5rem;
+}
+
+.FormCadastro_Error,
+.FormCadastro_Sucess {
+  font-size: .8rem;
+  margin: .3rem 0;
+}
+
+.FormCadastro_Error {
+  color: red;
+}
+
+.FormCadastro_Sucess {
+  color: green;
+}
+
+
+
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+
+}
+
+@media (max-width:768px) {
+  .FormCadastro {
+    height: auto;
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+
+@media (max-width:468px) {
+  .FormCadastro_Imagem {
+
+    width: 100vw;
+  }
+
+}

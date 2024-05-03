@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import style from './CardLivro.module.css'
 import { useFavoriteContext } from "../../Contexts/Favorites";
 import { FaBookmark,FaRegBookmark } from "react-icons/fa6";
+
 export default function CardLivro({ id, titulo, autor, preco, imagem }) {
 
 

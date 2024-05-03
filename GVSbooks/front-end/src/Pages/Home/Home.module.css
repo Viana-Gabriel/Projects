@@ -14,5 +14,5 @@
 }
 
 .CardsLivro::-webkit-scrollbar-thumb {
-  background-color: blue;   
+  background: rgb(34, 34, 182);
 }
