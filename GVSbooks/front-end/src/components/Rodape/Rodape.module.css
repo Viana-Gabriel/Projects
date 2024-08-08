@@ -1,4 +1,9 @@
 .Rodape{
   height: 30vh;
   background: rgb(34, 34, 182);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 12px;
 }
