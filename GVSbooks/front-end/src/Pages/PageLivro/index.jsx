@@ -2,27 +2,12 @@ import { Link, useParams } from "react-router-dom"
 import NaoEncontrado from "../NaoEncontrada"
 import Container from "../../components/Container"
 import style from './Pagelivro.module.css'
-import axios from 'axios'
-import { useEffect, useState } from "react"
+import { useLivroContext } from "../../Contexts/Livros"
 
 export default function PageLivro() {
   
-  useEffect(() => {
-    axios.get(`http://localhost:3001/livros/${id}`)
-      .then(res => {
-        console.log(res.data)
-      })
-      .catch(error => console.log(error))
 
-    axios.get(`http://localhost:3001/livros`)
-      .then(res => {
-        setLivros(res.data)
-        console.log(res.data)
-      })
-      .catch(error => console.log(error))
-  }, [])
-
-  const [livros, setLivros] = useState([])
+  const {livros} = useLivroContext()
 
   const { id } = useParams()
   const livro = livros.find(livro => livro.id == Number(id))

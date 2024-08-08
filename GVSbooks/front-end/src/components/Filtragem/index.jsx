@@ -6,11 +6,11 @@ import style from './Filtragem.module.css'
 export default function Filtragem({ filtrarLivros, livros, busca, setBusca }) {
   
   const [filtro, setFiltro] = useState('')
-  const filtros = ['Todos']
+  const [filtros,setFiltros] = useState(['Todos'])
 
   livros.map(livro => {
     if (!filtros.includes(livro.categoria))
-      filtros.push(livro.categoria)
+      setFiltros([...filtros,livro.categoria])
   })
 
  

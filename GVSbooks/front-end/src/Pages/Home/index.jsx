@@ -1,26 +1,19 @@
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import style from './Home.module.css'
 import Container from '../../components/Container'
 import CardLivro from '../../components/CardLivro'
 import Filtragem from '../../components/Filtragem'
 import Banner from './Banner'
-import axios from 'axios'
+import { useLivroContext } from '../../Contexts/Livros'
 
 
 export default function Home() {
-  useEffect(() => {
-    axios.get('http://localhost:3001/livros')
-      .then(res => {
-        setLivros(res.data)
-        setLivrosFiltrar(res.data)
-      })
-      .catch(error => console.log(error))
-  }, [])
-
-  const [livros,setLivros] = useState([])
   
-  const [livrosFiltrar, setLivrosFiltrar] = useState([])
+  const {livros} = useLivroContext()
+
+  const [livrosFiltrar, setLivrosFiltrar] = useState(livros)
   const [busca, setBusca] = useState('')
+  
   const livrosBusca = livrosFiltrar.filter(livro => livro.titulo.toLowerCase().includes(busca.toLowerCase()))
 
   function filtrarLivros(categoria) {

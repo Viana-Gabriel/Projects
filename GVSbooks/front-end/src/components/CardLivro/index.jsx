@@ -18,7 +18,7 @@ export default function CardLivro({ id, titulo, autor, preco, imagem }) {
         <h1>{titulo}</h1>
         <h2>{autor}</h2>
       </div>
-      <h3>R$ {preco.toFixed(2)}</h3>
+      <h3>R$ { Number(preco).toFixed(2)}</h3>
       <Link to={`/Livros/${id}`} className={style.CardLivro_link}>
         Mais informações
       </Link>

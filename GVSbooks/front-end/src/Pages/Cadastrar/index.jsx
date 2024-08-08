@@ -1,10 +1,14 @@
 import { useState } from "react"
 import Container from "../../components/Container";
-import axios from "axios"
+
 import style from './Cadastrar.module.css'
 import sem_imagem from './sem-foto.jpg'
+import { useLivroContext } from "../../Contexts/Livros";
 
 export default function CadastrarLivro() {
+
+  const { livros, setLivros } = useLivroContext()
+  console.log(livros)
 
   const [error, setError] = useState('')
   const [sucess, setSucess] = useState('')
@@ -28,16 +32,13 @@ export default function CadastrarLivro() {
       setError('Preencha todos os dados')
 
     } else {
-
-      axios.post('http://localhost:3001/livros', cadLivro)
-        .then(() => {
-          setStatus(true)
-          setSucess('livro Cadastrado com sucesso')
-          setCadLivro({ ...cadLivro, titulo: '', descricao: '', autor: '', categoria: '', preco: '', imagem: '' })
-        })
-        .catch(error => console.log(error))
+      setLivros([...livros , { id: livros.length + 1, ...cadLivro }])
+      setCadLivro({ ...cadLivro, titulo: '', descricao: '', autor: '', categoria: '', preco: '', imagem: '' })
+      setStatus(true)
+      setSucess('Livro Cadastrado com sucesso !!! ')
     }
 
+    
   }
 
   console.log(cadLivro.categoria)

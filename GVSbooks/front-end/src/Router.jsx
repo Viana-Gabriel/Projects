@@ -8,6 +8,7 @@ import Rodape from './components/Rodape'
 import CadastrarLivro from './Pages/Cadastrar'
 import Favoritos from './Pages/Favoritos'
 import FavoritesProvider from './Contexts/Favorites'
+import LivrosProvider from './Contexts/Livros'
 
 function Router() {
 
@@ -16,13 +17,15 @@ function Router() {
       <BrowserRouter>
         <Cabecalho />
         <FavoritesProvider>
-          <Routes>
-            <Route index element={<Home />} />
-            <Route path='*' element={<NaoEncontrado />} />
-            <Route path='/CadastrarLivros' element={<CadastrarLivro />} />
-            <Route path='/Favoritos' element={<Favoritos />} />
-            <Route path='/Livros/:id' element={<PageLivro />} />
-          </Routes>
+          <LivrosProvider>
+            <Routes>
+              <Route index element={<Home />} />
+              <Route path='*' element={<NaoEncontrado />} />
+              <Route path='/CadastrarLivros' element={<CadastrarLivro />} />
+              <Route path='/Favoritos' element={<Favoritos />} />
+              <Route path='/Livros/:id' element={<PageLivro />} />
+            </Routes>
+          </LivrosProvider>
         </FavoritesProvider>
         <Rodape />
       </BrowserRouter>
