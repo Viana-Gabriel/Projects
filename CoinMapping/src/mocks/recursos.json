@@ -1,0 +1,37 @@
+[
+  {
+    "titulo": "Controle de Despesas",
+    "id": 1,
+    "texto": "O controle de despesas  é essencial para manter a saúde financeira e evitar endividamentos. Ao monitorar gastos e receitas, é possível identificar excessos e oportunidades de economia. Criar um orçamento mensal ajuda a planejar melhor os gastos, priorizando o que é realmente importante.",
+    "imagem":"assets/ImagensRecursos/controle.png",
+    "text_button": "Confira",
+    "icon":"assets/IconsRecursos/calculadora.svg"
+  },
+  {
+    "titulo": "Categorização ",
+    "id": 2,
+    "texto": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste rem, maiores eligendi at doloremque veniam suscipit libero placeat deleniti iusto explicabo! Rem ab magnam accusamus quae expedita quaerat! Natus reprehenderit asperiores omnis. Quam possimus repudiandae, qui officiis quas distinctio optio quae est dolorem facere ipsum exercitationem sit officia dignissimos",
+    "imagem":"/assets/ImagensRecursos/controle.png",
+    "text_button": "Confira",
+    "icon":"assets/IconsRecursos/filtro.svg"
+  },
+  {
+    "titulo": "Especulações ",
+    "id": 3,
+    "texto": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste rem, maiores eligendi at doloremque veniam suscipit libero placeat deleniti iusto explicabo! Rem ab magnam accusamus quae expedita quaerat! Natus reprehenderit asperiores omnis. Quam possimus repudiandae, qui officiis quas distinctio optio quae est dolorem facere ipsum exercitationem sit officia dignissimos",
+    "imagem":"assets/ImagensRecursos/controle.png",
+    "text_button": "Confira",
+    "icon":"assets/IconsRecursos/especulacao.svg"
+  },
+  {
+    "titulo": "Alerta de Gastos",
+    "id": 4,
+    "texto": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste rem, maiores eligendi at doloremque veniam suscipit libero placeat deleniti iusto explicabo! Rem ab magnam accusamus quae expedita quaerat! Natus reprehenderit asperiores omnis. Quam possimus repudiandae, qui officiis quas distinctio optio quae est dolorem facere ipsum exercitationem sit officia dignissimos",
+    "imagem":"assets/ImagensRecursos/controle.png",
+    "text_button": "Confira",
+    "icon":"assets/IconsRecursos/alerta.svg"
+    
+  }
+]
+
+
