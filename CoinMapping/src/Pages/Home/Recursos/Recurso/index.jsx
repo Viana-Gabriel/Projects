@@ -1,4 +1,3 @@
-// eslint-disable-next-line react/prop-types
 const Recurso = ({ id, titulo, icon, FiltrarRecurso }) => {
   return (
     <button className={'flex flex-col items-center w-[25%] sm:w-auto hover:brightness-75'} onClick={() => FiltrarRecurso(id)}>
