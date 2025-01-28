@@ -1,0 +1,33 @@
+.ContainerSearch{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.Search{
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap:1rem;
+  background: var(--white);
+  width: 500px;
+  height: 40px;
+  border-radius: 20px;
+  padding: 0 0.8rem;
+}
+
+.Search button{
+  border: none;
+  background: none;
+}
+
+
+.Search input{
+  background: none;
+  border: none;
+  outline: none;
+  width: 90%;
+  height: 100%;
+}
+

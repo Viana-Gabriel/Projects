@@ -1,0 +1,18 @@
+.Cabecalho{
+  background: var(--black);
+  color: var(--white);
+  position: relative;
+}
+
+.Cabecalho_container{
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex{
+  display: flex;
+  gap: 2rem;
+}
+

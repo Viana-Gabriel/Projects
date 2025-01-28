@@ -1,0 +1,42 @@
+.Sugestoes{
+  color: var(--black);
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background: var(--white);
+  box-shadow: 2px  3px 3px 3px rgba(0, 0, 0, 0.315);
+  width: 500px;
+  height: 300px;
+  top: 90%;
+  padding: 1rem;
+  overflow-y: scroll;
+}
+
+
+.Sugestoes li a{
+  display: flex;
+  justify-content: space-between;
+  color: var(--black);
+  margin: .5rem 0;
+  gap: 1rem;
+}
+.Sugestoes li div{
+  width: 90%;
+}
+
+.Sugestoes li div:nth-child(1){
+  display: block;
+  height: 60px;
+  width: 60px;
+  border: 1px solid black;
+}
+
+
+.SugestaoNaoEncontrada{
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.none{
+  display: none;
+}

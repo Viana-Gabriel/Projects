@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "titulo": "Smartwatch White Edition",
+    "descricao": "Design moderno com pulseira branca elegante. Ideal para acompanhar sua rotina com estilo e praticidade.",
+    "preco": 699.00 
+  },
+  {
+    "id": 2,
+    "titulo": "testando 2.0",
+    "descricao": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste voluptatum voluptate cum veritatis obcaecati, sapiente dolore",
+    "preco": 650  
+  },
+  {
+    "id": 3,
+    "titulo": "testando 2.0",
+    "descricao": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste voluptatum voluptate cum veritatis obcaecati, sapiente dolore",
+    "preco": 650  
+  },
+  {
+    "id": 4,
+    "titulo": "Pulseira de metal",
+    "descricao": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste voluptatum voluptate cum veritatis obcaecati, sapiente dolore"
+  },
+  {
+    "id": 5,
+    "titulo": "testando 2.0",
+    "descricao": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste voluptatum voluptate cum veritatis obcaecati, sapiente dolore"
+  },
+  {
+    "id": 6,
+    "titulo": "testando 2.0",
+    "descricao": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste voluptatum voluptate cum veritatis obcaecati, sapiente dolore"
+  },
+  {
+    "id": 7,
+    "titulo": "testando",
+    "descricao": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste voluptatum voluptate cum veritatis obcaecati, sapiente dolore"
+  },
+  {
+    "id": 8,
+    "titulo": "testando 2.0",
+    "descricao": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste voluptatum voluptate cum veritatis obcaecati, sapiente dolore"
+  },
+  {
+    "id": 9,
+    "titulo": "testando 2.0",
+    "descricao": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste voluptatum voluptate cum veritatis obcaecati, sapiente dolore"
+  },
+  {
+    "id": 10,
+    "titulo": "Pulseira de metal",
+    "descricao": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste voluptatum voluptate cum veritatis obcaecati, sapiente dolore"
+  },
+  {
+    "id": 11,
+    "titulo": "testando 2.0",
+    "descricao": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste voluptatum voluptate cum veritatis obcaecati, sapiente dolore"
+  },
+  {
+    "id": 12,
+    "titulo": "testando 2.0",
+    "descricao": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste voluptatum voluptate cum veritatis obcaecati, sapiente dolore"
+  }
+]
