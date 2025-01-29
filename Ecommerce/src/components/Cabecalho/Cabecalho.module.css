@@ -2,6 +2,7 @@
   background: var(--black);
   color: var(--white);
   position: relative;
+  padding: 0 1rem;
 }
 
 .Cabecalho_container{
@@ -16,3 +17,8 @@
   gap: 2rem;
 }
 
+@media screen and (max-width:1024px){
+  .Cabecalho{
+    display:  none;
+  }
+}
