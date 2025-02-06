@@ -1,0 +1,21 @@
+.banner{
+  height: 450px;
+  background: linear-gradient(90deg, rgba(255, 222, 89, 0.8) 0%, rgba(255, 145, 77, 0.8) 100%);
+}
+
+.vantagens{
+  background: var(--gray-light);
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  overflow-x: auto;
+}
+
+
+
+@media screen and (max-width:1024px){
+  .banner{
+    height: auto;
+    padding: 2rem 0;
+  }
+}

@@ -1,6 +1,8 @@
 import React from 'react'
 import { useSearchParams } from 'react-router-dom'
 import produtos from '@/db/produtos.json'
+import CardProduct from '@/components/CardProduct'
+import Container from '@/components/Container'
 
 const ProdutosBuscados = () => {
 
@@ -8,28 +10,29 @@ const ProdutosBuscados = () => {
   const busca = searchParametro.get("busca")
 
   const produtosBuscados = produtos.filter((produto) =>
-    produto.titulo.toLowerCase().includes(busca?.toLowerCase() || "")
+    produto.titulo.toLowerCase().includes(busca.toLowerCase() || "")
   );
 
   return (
-    <div>
+    <Container>
 
       {produtosBuscados.length > 0 ? (
         <>
           <h1>Resultados para: "{busca}"</h1>
-          <ul>
+          <div>
             {produtosBuscados.map((produto) => (
-              <li key={produto.id}>{produto.titulo}</li>
+              <CardProduct {...produto} />
             ))}
-          </ul>
+          </div>
 
         </>
 
       ) : (
         <p>Nenhum produto encontrado.</p>
       )}
-    </div>
+    </Container>
   )
+
 }
 
 export default ProdutosBuscados

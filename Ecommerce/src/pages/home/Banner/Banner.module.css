@@ -1,0 +1,54 @@
+.container_banner{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  font-size: 20px;
+}
+
+.container_banner h1{
+  margin: 1rem 0;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 2.8rem;
+}
+
+.container_banner button{
+  background: var(--white);
+  padding: .5rem;
+  font-size: 20px;
+  width: 300px;
+}
+
+
+.container_banner div:nth-child(2){
+ padding: 1rem;
+}
+
+@media screen and (max-width:1070px){
+  .container_banner h1{
+    font-size: 2.5rem;
+  }
+  
+
+}
+
+
+@media screen and (max-width:1024px){
+  .container_banner{
+    flex-direction: column;
+  }
+  .container_banner img{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:600px){
+  .container_banner h1{
+    font-size: 2rem;
+  }
+}
+
+
+
+

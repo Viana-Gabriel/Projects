@@ -3,7 +3,7 @@ import React from 'react'
 
 const NavLink = ({path,children,classname}) => {
   return (
-      <Link to={path}>{children}</Link>
+      <Link to={path} className={classname}>{children}</Link>
   )
 }
 

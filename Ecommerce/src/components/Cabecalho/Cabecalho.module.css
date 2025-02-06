@@ -1,12 +1,13 @@
 .Cabecalho{
   background: var(--black);
   color: var(--white);
-  position: relative;
-  padding: 0 1rem;
+  padding: 1rem;
+  position: sticky;
+  z-index: 999;
+  top: 0;
 }
 
 .Cabecalho_container{
-  height: 65px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -17,8 +18,17 @@
   gap: 2rem;
 }
 
+.logo{
+  font-weight: bold;
+  font-size: 30px;
+}
+
 @media screen and (max-width:1024px){
-  .Cabecalho{
+  .Cabecalho nav{
     display:  none;
   }
-}
+  .Cabecalho_container{
+    flex-direction: column;
+    gap: .5rem 0;
+  }
+} 

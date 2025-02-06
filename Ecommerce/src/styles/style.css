@@ -4,9 +4,14 @@
 :root{
   --black: #1E1E1E;
   --white:#F3F3F3;
+  --yellow:#FFDE59;
   --color-destaque:#FFB252;
   --font-family: 'Roboto';
   --gray: #4F4F4F;
+  --gray-light: #eeeeee;
+
+  --swiper-navigation-size:20px;
+  --swiper-theme-color: #1e1e1e;
 }
 
 *{

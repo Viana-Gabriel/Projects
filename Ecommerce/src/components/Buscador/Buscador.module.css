@@ -22,7 +22,6 @@
   background: none;
 }
 
-
 .Search input{
   background: none;
   border: none;
@@ -30,4 +29,10 @@
   width: 90%;
   height: 100%;
 }
+
+@media screen and (max-width:540px){
+  .Search{
+    width: 90VW;
+  }
+} 
 

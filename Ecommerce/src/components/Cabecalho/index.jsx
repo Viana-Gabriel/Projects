@@ -12,9 +12,9 @@ const Cabecalho = () => {
   return (
     <header className={style.Cabecalho}>
       <Container classname={style.Cabecalho_container}>
-        <div>
+        <div className={style.logo}>
           <NavLink path={'/'}>
-            Logo
+            CronoX
           </NavLink>
         </div>
         <Search/>

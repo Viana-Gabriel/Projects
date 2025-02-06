@@ -1,0 +1,26 @@
+.container_vantagens{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.vantagem{
+  display: flex;
+  align-items: center;
+  gap: 0 .5rem;
+}
+
+@media screen and (max-width:1024px){
+  .container_vantagens{
+    width: auto;
+  }
+  .vantagem{
+    width: 60vw;
+  }
+}
+
+@media screen and (max-width:540px){
+  .vantagem{
+    width: 80vw;
+  }
+}

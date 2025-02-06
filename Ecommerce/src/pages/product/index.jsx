@@ -6,6 +6,7 @@ import Container from '../../components/Container'
 import style from './Product.module.css'
 import { FaTruck, FaShoppingCart, FaRegHeart } from "react-icons/fa";
 import FomatadorMoedas from '../../components/Formatador'
+import CalculadorFrete from '../../components/CalculadorFrete'
 
 const ProductPage = () => {
 
@@ -45,9 +46,7 @@ const ProductPage = () => {
 
           </div>
           <div className={style.Product_info_frete}>
-            <div>
-              {/* Criar um componente de calcular frete */}
-            </div>
+            <CalculadorFrete/>
             <div>
               <FaTruck size={20} />
               <p>Frete grátis a partir de R$ 200,00 para cidades do Estado de São Paulo</p>

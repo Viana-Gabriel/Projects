@@ -62,6 +62,13 @@
   border: 1px solid;
 }
 
+.Product_info_frete div:nth-child(2){
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  font-size: 12px;
+}
+
 .Product_info_acoes,.Product_info_acoes button{
   display: flex;
   align-items: center;

@@ -10,6 +10,7 @@
   top: 90%;
   padding: 1rem;
   overflow-y: scroll;
+  z-index: 999;
 }
 
 
@@ -40,3 +41,10 @@
 .none{
   display: none;
 }
+
+@media screen and (max-width:540px){
+  .Sugestoes{
+    width: 90VW;
+  }
+} 
+
