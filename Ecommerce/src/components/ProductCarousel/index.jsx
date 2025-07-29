@@ -16,7 +16,7 @@ const ProductCarousel = ({ products, title }) => {
       <Swiper
         modules={[Navigation]}
         navigation
-        spaceBetween={20}
+        spaceBetween={45}
         breakpoints={{
           400:{ slidesPerView: 1},
           470:{ slidesPerView: 1.5},
@@ -27,7 +27,9 @@ const ProductCarousel = ({ products, title }) => {
         }}
         className="product-carousel"
         style={{
-          paddingLeft: "50px",
+          paddingLeft: "35px",
+          paddingRight: "45px",
+         
           
         }}
       >

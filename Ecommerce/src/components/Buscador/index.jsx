@@ -14,6 +14,7 @@ import produtos from '@/db/produtos.json';
 const Search = () => {
 
   const [busca, setBusca] = useState('')
+  
   const valorBusca = Object.values(busca).toString().toLowerCase()
 
   const [mostrarSugestoes, setMostrarSugestoes] = useState(false);

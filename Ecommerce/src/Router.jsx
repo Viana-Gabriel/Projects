@@ -1,10 +1,11 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import Cabecalho from "@/components/Cabecalho"
-import PaginaNaoEncontrada from "./pages/naoencontrada"
-import Home from "./pages/home"
-import CarrinhoPage from "./pages/cart"
-import ProductPage from "./pages/product"
-import ProdutosBuscados from "./pages/searchProduct"
+import PaginaNaoEncontrada from "@/pages/naoencontrada"
+import Home from "@/pages/home"
+import CarrinhoPage from "@/pages/cart"
+import ProductPage from "@/pages/product"
+import ProdutosBuscados from "@/pages/searchProduct"
+import Footer from "@/components/Footer"
 
 function Router() {
   return (
@@ -20,6 +21,7 @@ function Router() {
         <Route path="/salvo" element={<>pagina salvos</>}/>
         <Route path="*" element={<PaginaNaoEncontrada/>}/>
       </Routes>
+      <Footer/>
    </BrowserRouter>
   )
 }

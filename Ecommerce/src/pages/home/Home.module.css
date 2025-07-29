@@ -11,11 +11,109 @@
   overflow-x: auto;
 }
 
+.descubra{
+  background: #f5f4f1 ;
+  display: flex;
+  align-items: center;
+}
 
+.container_descubra{
+  background: url('../../assets/descubra.png') no-repeat ;
+  background-size: cover;
+  padding: 2rem 0 1rem 0;
+  display: flex;
+  justify-content: space-between;
+}
 
+.descubra_info{
+  width: 45%;
+  line-height: 1.5rem;
+  border-radius: 20px;
+}
+
+.descubra_links{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 2rem;
+}
+
+.descubra_info h1{
+ font-size: 32px;
+ margin-bottom: 2rem;
+}
+
+.descubra_info p{
+  margin-bottom: 2rem;
+ }
+.descubra_info a {
+  text-align: center;
+  font-weight: bold;
+  display: inline-block;
+  background: var(--white);
+  border: 1px solid var(--color-destaque);
+  color: var(--black);
+  padding: .8rem 2rem;
+  max-width: 400px;
+  border-radius: 5px;
+}
+.descubra_info a:nth-child(2) {
+  background: var(--color-destaque);
+}
+
+.descubra_image{
+  position: relative;
+}
+.descubra_image img{
+  position: relative;
+  z-index: 9;
+  filter: brightness(0.7);
+}
+.descubra_image div{
+  height: 410px;
+  width: 386px;
+  background: var(--color-destaque);
+  position: absolute;
+  top: -3%;
+  left: 10%;
+}
 @media screen and (max-width:1024px){
   .banner{
     height: auto;
     padding: 2rem 0;
   }
+  .container_descubra{
+    background: none;
+    align-items: center;
+    flex-direction: column-reverse;
+    padding:1rem;
+  }
+
+  .descubra_info{
+    width: 90%;
+  }
+
+  .descubra_image{
+    width: 80%;
+    
+  }
+
+
+ 
+ 
+  
+}
+@media screen and (max-width:640px){
+  .descubra_info{
+    width: 100%;
+  }
+  .descubra_image,.descubra_image img{
+    width: 100%;
+    
+  }
+
+
+  .descubra_image div{
+    background: none;
+  }
+  
 }

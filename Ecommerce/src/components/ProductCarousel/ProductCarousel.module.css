@@ -1,9 +1,15 @@
 .container_Carousel{
-  padding: 2rem 1rem;
+  padding:3rem 0;
 }
 
 .Carousel_titulo {
   font-size: 32px;
   font-weight: bold;
-  margin-bottom: 1rem ;
+  margin-bottom: 2rem ;
 }
+
+@media screen and (max-width:1300px){
+  .Carousel_titulo {
+    padding-left: 1rem;
+  }
+} 

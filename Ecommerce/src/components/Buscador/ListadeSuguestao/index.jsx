@@ -1,4 +1,4 @@
-import React, { useMemo, useRef, useEffect, } from 'react'
+import React, { useMemo, useRef, useEffect } from 'react'
 import NavLink from '@/components/NavLink'
 import produtos from '@/db/produtos.json';
 import style from './ListaDeSugestoes.module.css'
